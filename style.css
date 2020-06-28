@@ -32,7 +32,7 @@
 
 body{
   font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background-color: white;
   color: #3a3a3a;
   margin: 0px;
@@ -123,9 +123,37 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: var(--dark-blue);
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #3a3a3a;
+  font-weight: bold;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -142,12 +170,22 @@ h1 {
 }
 
 .row {
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .col {
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.order-link {
+  color: var(--red);
+  font-weight: bold;
+}
+
+.order-link a{
+  text-decoration: underline;
 }
 
 .footer a {
@@ -163,5 +201,4 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
 }
