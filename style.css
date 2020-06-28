@@ -64,7 +64,15 @@ a:hover {
 .footer {
   margin-top: 80px;
   padding: 20px;
-  background-color: var(--light-blue);
+  background-color: white;
+  color:var(--dark-blue);
+  border-top: 5px solid var(--dark-blue);
+}
+
+.footer a {
+  font-family: 'Raleway', sans-serif;
+  color:var(--dark-blue);
+  margin-right: 16px;
 }
 
 .navbar {
@@ -188,18 +196,16 @@ h4 {
   text-decoration: underline;
 }
 
-.footer a {
-  font-family: 'Raleway', sans-serif;
-  color: var(--dark-blue);
-  margin-right: 16px;
-}
-
 .exec {
+  padding-top: 50px; 
+  padding-bottom: 50px;
   background-color: var(--light-blue);
+  margin-bottom: 0px;
 }
 
 .headshot {
   border-radius: 10px;
+  margin-left: 10%;
   width: 80%;
 }
 
