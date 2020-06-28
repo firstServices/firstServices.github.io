@@ -171,7 +171,7 @@ h4 {
 
 .row {
   padding-top: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .col {
@@ -192,6 +192,28 @@ h4 {
   font-family: 'Raleway', sans-serif;
   color: var(--dark-blue);
   margin-right: 16px;
+}
+
+.exec {
+  background-color: var(--light-blue);
+}
+
+.headshot {
+  border-radius: 10px;
+  width: 80%;
+}
+
+.crop-img {
+  border-radius: 10px;
+  width: 80%;
+  max-height: 250px;
+  margin-top: 20px;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+.crop-img img {
+  width: 100%;
 }
 
 @media (max-width: 800px) {
