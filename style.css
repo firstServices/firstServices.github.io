@@ -64,9 +64,9 @@ a:hover {
 .footer {
   margin-top: 80px;
   padding: 20px;
-  background-color: white;
+  background-color: #ffffff99;
   color:var(--dark-blue);
-  border-top: 5px solid var(--dark-blue);
+  border-top: 5px solid var(--light-blue);
 }
 
 .footer a {
@@ -166,7 +166,7 @@ h4 {
 }
 
 .icon {
-  height: 150px;
+  height: 10vw;
 }
 
 .center {
