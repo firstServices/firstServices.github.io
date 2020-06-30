@@ -197,20 +197,21 @@ h4 {
   font-size: 18px;
 }
 
-.btn.special {
+.special {
   background-color: var(--red);
   color: white;
 }
 
-.btn.special:hover {
+.special:hover {
   background-color: var(--dark-blue);
+  color: white;
 }
 
-.btn.toggle {
+.toggle {
   background-color: var(--light-blue);
 }
 
-.btn.toggle:hover {
+.toggle:hover {
   background-color: var(--dark-blue);
   color: white;
 }
