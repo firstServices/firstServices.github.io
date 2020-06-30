@@ -44,14 +44,19 @@ body{
   background-repeat: repeat repeat;
 }
 
-a:visited {
-  text-decoration: none;
+.a {
   color: var(--red);
+  font-weight: bold;
+}
+
+a:visited {
+  color: var(--red);
+  text-decoration: none;
 }
 
 a:hover {
+  color: var(--light-blue);
   text-decoration: none;
-  color: #3a3a3a;
 }
 
 ::-webkit-scrollbar {
@@ -111,7 +116,7 @@ a:hover {
 }
 
 .nav-link a:hover {
-  color: var(--dark-blue);
+  color: #3a3a3a;
 }
 
 .nav-item {
@@ -187,13 +192,36 @@ h4 {
   padding-left: 20px;
 }
 
-.order-link {
-  color: var(--red);
-  font-weight: bold;
+.btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 
-.order-link a{
-  text-decoration: underline;
+.btn.special {
+  background-color: var(--red);
+  color: white;
+}
+
+.btn.special:hover {
+  background-color: var(--dark-blue);
+}
+
+.btn.toggle {
+  background-color: var(--light-blue);
+}
+
+.btn.toggle:hover {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.card-header {
+  background-color: var(--light-blue);
+}
+
+.card-body {
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .exec {
