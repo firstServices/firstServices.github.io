@@ -32,7 +32,7 @@
 
 body{
   font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   background-color: white;
   color: #3a3a3a;
   margin: 0px;
@@ -42,16 +42,6 @@ body{
   background-image: url(img/grid.png);
   background-size: 100vh auto;
   background-repeat: repeat repeat;
-}
-
-.a {
-  color: var(--red);
-  font-weight: bold;
-}
-
-a:visited {
-  color: var(--red);
-  text-decoration: none;
 }
 
 a:hover {
@@ -74,10 +64,12 @@ a:hover {
   border-top: 5px solid var(--light-blue);
 }
 
-.footer a {
-  font-family: 'Raleway', sans-serif;
-  color:var(--dark-blue);
-  margin-right: 16px;
+.footer a:visited {
+  color: var(--dark-blue);
+}
+
+.footer a:hover {
+  color: #3a3a3a;
 }
 
 .navbar {
@@ -98,24 +90,25 @@ a:hover {
 }
 
 .navbar a:hover {
-  color: var(--dark-blue);
+  color: #3a3a3a;
 }
 
-.nav-link {
+.navlink {
   color: var(--dark-blue);
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
+  margin-right: 16px;
 }
 
-.nav-link a {
+.navlink a {
   color: var(--dark-blue);
 }
 
-.nav-link a:visited {
+.navlink a:visited {
   color: var(--dark-blue);
 }
 
-.nav-link a:hover {
+.navlink a:hover {
   color: #3a3a3a;
 }
 
@@ -146,7 +139,7 @@ h2 {
   font-family: 'Raleway', sans-serif;
   color: var(--dark-blue);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
@@ -156,7 +149,7 @@ h3 {
   font-family: 'Raleway', sans-serif;
   color: var(--dark-blue);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
@@ -166,7 +159,7 @@ h4 {
   font-family: 'Raleway', sans-serif;
   color: #3a3a3a;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -188,17 +181,29 @@ h4 {
 }
 
 .col {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .btn {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .special {
   background-color: var(--red);
+  color: white;
+}
+
+.special a {
+  color: white;
+}
+
+.special a:visited {
+  color: white;
+}
+
+.special a:hover {
   color: white;
 }
 
@@ -254,8 +259,14 @@ h4 {
 @media (max-width: 800px) {
   .center {
     position: absolute;
+    width: 60%;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  
+  .col {
+    padding-bottom: 30px;
+    min-width: 90vw;
   }
 }

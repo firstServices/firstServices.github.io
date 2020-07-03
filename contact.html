@@ -22,8 +22,11 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="navlink" href="index.html">Home</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="navlink dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Our Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -34,22 +37,25 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="navlink dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Client Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="reschedule.html">Laundry Rescheduling</a>
-              <a class="dropdown-item" href="contact.html">Contact Us</a>
+              <a class="dropdown-item" href="pickup.html">Dry Cleaning Pickup</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="navlink" href="faq.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
+            <a class="navlink" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="join.html">Join Us</a>
+            <a class="navlink" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="navlink" href="join.html">Join Us</a>
           </li>
         </ul>
       </div>
@@ -58,44 +64,38 @@
     <div class="container-fluid" style="margin-top:50px">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <h1>History</h1>
-            <p>
-              Penn Student Agencies began under FDR's National Youth Administration, 
-              an early incarnation of the Federal Work-Study Program. Initially titled 
-              Self-Supporting Students, Penn Student Agencies made its first appearance 
-              on July 1, 1933 as a part of the University of Pennsylvania’s Placement 
-              Services Department.
-            </p>
-            <p>
-              The Dorm Laundry Service (first named firstLaundry; later renamed firstServices)
-              was one of the three agencies under PSA. In recent years, firstServices has
-              become a huge cultural success on campus, servicing a substantial portion
-              of the freshman class and tending to the needs of upperclassmen and off
-              campus residents as well.
-            </p>
-          </div>
-          <div class="col">
-            <div class="crop-img"><img src="img/history.png"></div>
-          </div>
+            <div class="col" id="form_container">
+                <h2>Contact Us</h2> 
+                <p>All forms will be answered by the firstServices Director of Customer Relations.</p>
+                <p>For business inquires, please send an email to <a href="mailto:executive@psafirstservices.com">executive@psafirstservices.com</a>.</p>
+                <form role="form" method="post" id="reused_form">
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message"> Message:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name"> Your Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="email"> Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn special">Send</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <div class="crop-img"><img src="img/today.jpg"></div>
-          </div>
-          <div class="col">
-            <h1>Today</h1>
-            <p>
-              As an entirely student-operated organization, firstServices has a lot of freedom 
-              to explore new ideas to better serve our customers. We provide easy-to-use laundry, 
-              dry cleaning, and water services, and are always looking for new ways to address 
-              the needs of Penn students. With a staff of over a dozen employees and hundreds 
-              of customers each semester, firstServices has become the most profitable agency 
-              within Penn Student Agency. 
-            </p>
-          </div>
-        </div>
-      </div>
+    </div>
     </div>
 
     <footer class="footer" style="margin-top:0px">
@@ -110,8 +110,8 @@
               <p>(215) 898-6815</p>
             </div>
             <div class="col">
-              <a href="about.html">About Us</a>
-              <a href="mailto:executive@psafirstservices.com">Contact Us</a>
+              <a class="navlink" href="about.html">About Us</a>
+              <a class="navlink" href="mailto:executive@psafirstservices.com">Contact Us</a>
             </div>
           </div>
         </div>
