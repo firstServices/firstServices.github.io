@@ -170,7 +170,7 @@ h4 {
 .center {
   position: absolute;
   width: 40%;
-  top: 50%;
+  top: 130%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -256,11 +256,18 @@ h4 {
   width: 100%;
 }
 
+.banner {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  align-content: center;
+}
+
 @media (max-width: 800px) {
   .center {
     position: absolute;
     width: 50%;
-    top: 30%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
