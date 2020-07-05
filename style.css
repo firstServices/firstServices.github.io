@@ -61,7 +61,7 @@ a:hover {
   padding: 20px;
   background-color: #ffffff99;
   color:var(--dark-blue);
-  border-top: 5px solid var(--light-blue);
+  border-top: 10px solid var(--light-blue);
 }
 
 .footer a:visited {
@@ -228,6 +228,7 @@ h4 {
 .card-body {
   padding-right: 30px;
   padding-left: 30px;
+  font-size: 18px;
 }
 
 .exec {
@@ -267,7 +268,7 @@ h4 {
   .center {
     position: absolute;
     width: 50%;
-    top: 110%;
+    top: 112%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
