@@ -21,6 +21,6 @@ $validator->field('comments')->maxLength(6000);
 
 
 
-$pp->sendEmailTo('lstting@seas.upenn.edu'); // ← Your email here
+$pp->sendEmailTo('customerrelations@psafirstservices.com'); // ← Your email here
 
 echo $pp->process($_POST);
