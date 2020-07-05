@@ -170,9 +170,9 @@ h4 {
 .center {
   position: absolute;
   width: 40%;
-  top: 50%;
+  top: 130%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .row {
@@ -267,7 +267,7 @@ h4 {
   .center {
     position: absolute;
     width: 50%;
-    top: 30%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

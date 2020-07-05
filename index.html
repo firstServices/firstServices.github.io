@@ -4,13 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="style.css">
-
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <title>firstServices</title>
   </head>
   <body>
@@ -61,19 +61,39 @@
       </div>
     </nav>
 
-    <div class="banner">
-      <img src="img/landing_top.png" style="height:70vh; display:block; margin-left:50%; transform:translateX(-50%);">
-      <div class="center" style="top:30%; background-color:#ffffff99; border-radius:10px">
-        <h2 style="text-align:center">placeholder text lorem ipsum</h2>
-      </div>
-      <div class="center" style="top:65%">
-        <img src="img/landing_logo.png" style="height:10vh; display:block; margin-left:50%; transform:translateX(-50%);">
+    <!-- covid modal -->
+    <div class="modal fade" id="covidModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLongTitle">COVID-19 Alert</h1>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Hate the idea of leaving your clothes in a crowded laundry room? 
+              Want to have peace of mind that your clothes have not been messed with? 
+              Tired of lugging water and laundry up four flights of stairs? 
+              Well firstServices has you covered.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn special" href="https://www.vpul.upenn.edu/secure/psa/forms/firstservices/" target="_blank" role="button">Order now!</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container-fluid" style="padding:0px">
+    <div class="banner">
+      <img src="img/landing_top.png" style="height:70vh; display:block; margin-left:50%; transform:translateX(-50%);">
+      <div class="center" style="top:70%">
+        <img src="img/landing_logo.png" width="50%" style="display:block; margin-left:50%; transform:translateX(-50%);">
+      </div>
+    </div>
+
+    <div class="container-fluid" style="padding:0px;">
       <img src="img/landing.png" style="width:100%;">
-      <div class="center" style="top:120%">
+      <div class="center">
         <img src="img/landing_logo.png" width="100%">
         <h2 style="text-align:center">Making Penn life easier.</h2>
       </div>
@@ -142,5 +162,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script> $(function() { $("#covidModal").modal('show'); }); </script>
   </body>
 </html>
