@@ -21,6 +21,27 @@
 5. Make sure "Commit directly to the master branch" is selected
 6. Click "Commit changes"
 
+## Adding service updates
+1. Open the updates.html file 
+2. Click the pencil icon in the top right to edit this file
+3. Scroll to where you see this block of code
+```
+ <div class="container-fluid" style="margin-top:50px">
+      <div class="container">
+        <h1>Service Updates</h1>
+```
+
+4. Directly under `<h1>Service Updates</h1>`, insert the following code & edit the contents as necessary
+```
+<h3>[DATE]</h3>
+<p>
+  [ANNOUNCEMENT]
+</p>
+```
+5. Scroll to the bottom of the page and enter a commit message (i.e. "add new service update")
+6. Make sure "Commit directly to the master branch" is selected
+7. Click "Commit changes"
+
 ## Updating headshots & bios
 
 ### Deleting old headshots
