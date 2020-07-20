@@ -31,7 +31,7 @@
         <h1>Service Updates</h1>
 ```
 
-4. Directly under `<h1>Service Updates</h1>`, insert the following code & edit the contents as necessary
+4. Directly under `<h1>Service Updates</h1>`, insert the following code & edit the contents as necessary (for multiple paragraphs, put each paragraph inside its own set of `<p></p>` tags)
 ```
 <h3>[DATE]</h3>
 <p>
